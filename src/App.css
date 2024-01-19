@@ -4,3 +4,6 @@
 nav {
   overflow: hidden;
 }
+.btn-nav {
+  border-radius: 30px;
+}
