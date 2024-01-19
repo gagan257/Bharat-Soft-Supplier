@@ -27,18 +27,20 @@ nav {
   font-size: 20px;
 }
 .banner-btn {
-  border-radius: 30px;
   background-color: #ffb512;
   color: #fff;
   border: none;
-  padding: 10px 20px;
   font-size: 20px;
-  font-weight: 600;
-  margin-left: 45%;
+  font-weight: 500;
 }
 .banner-heading {
   font-size: 40px;
   font-weight: 600;
   padding-top: 10%;
   margin-bottom: 3%;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
