@@ -1,3 +1,5 @@
+/* NAVBAR COMPONENT CSS */
+
 .navbar-nav {
   margin-left: 15%;
 }
@@ -6,4 +8,37 @@ nav {
 }
 .btn-nav {
   border-radius: 30px;
+}
+.nav-link:hover {
+  color: #ffb512;
+}
+
+/* BANNER COMPONENT CSS */
+
+.banner-div {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-span {
+  color: #ffb512;
+}
+.banner-sub-text {
+  font-size: 20px;
+}
+.banner-btn {
+  border-radius: 30px;
+  background-color: #ffb512;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 45%;
+}
+.banner-heading {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 10%;
+  margin-bottom: 3%;
 }

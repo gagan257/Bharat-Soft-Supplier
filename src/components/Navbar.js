@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Images/logo-black.svg";
+import logo from "../Images/nav-logo.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light p-3 shadow-sm">
@@ -35,9 +35,6 @@ const Navbar = () => {
             <a className="nav-link m-3" href="/">
               <i className="fa-solid fa-user"></i> About Us
             </a>
-            {/* <button href="/" className="btn btn-warning btn-nav">
-              Share Your Project
-            </button> */}
           </div>
         </div>
       </div>
