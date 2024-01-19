@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light p-3 shadow-sm">
       <div className="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" width="130" height="60" />
         </a>
         <button
@@ -18,22 +18,22 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse d-flex"
-          id="navbarNavAltMarkup"
-        >
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-link m-3" aria-current="page" href="/">
-              <i class="fa-solid fa-magnifying-glass"></i> Company search
+              <i className="fa-solid fa-magnifying-glass"></i> Company search
             </a>
             <a className="nav-link m-3" href="/">
-              <i class="fa-solid fa-laptop-file"></i> Developer search
+              <i className="fa-solid fa-laptop-file"></i> Developer search
             </a>
             <a className="nav-link m-3" href="/">
-              <i class="fa-solid fa-location-dot"></i> Company map
+              <i className="fa-solid fa-location-dot"></i> Company map
             </a>
             <a className="nav-link m-3" href="/">
-              <i class="fa-solid fa-book"></i> Knowledge center
+              <i className="fa-solid fa-book"></i> Knowledge center
+            </a>
+            <a className="nav-link m-3" href="/">
+              <i className="fa-solid fa-user"></i> About Us
             </a>
             {/* <button href="/" className="btn btn-warning btn-nav">
               Share Your Project
