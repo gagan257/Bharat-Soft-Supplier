@@ -44,3 +44,21 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+/* WHY US COMPONENT CSS */
+
+.whyus-span {
+  color: #ffb512;
+}
+.whyus-span-2 {
+  text-decoration: underline;
+  text-decoration-color: #ffb512;
+}
+.whyus-advantage {
+  font-weight: 350;
+  color: #ffb512;
+}
+.whyus-li {
+  font-size: 25px;
+  font-weight: 400;
+}

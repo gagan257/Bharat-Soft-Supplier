@@ -4,10 +4,17 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light p-3 shadow-sm">
+    <nav className="navbar navbar-expand-lg bg-light p-3 shadow-lg">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src={logo} alt="Logo" width="130" height="60" />
+          <img
+            src={logo}
+            alt="Logo"
+            width="130"
+            height="60"
+            data-aos="fade-right"
+            data-aos-delay="800"
+          />
         </Link>
         <button
           className="navbar-toggler"
@@ -23,19 +30,54 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link to="/company-search" className="nav-link m-3">
-              <i className="fa-solid fa-magnifying-glass"></i> Company search
+              <i
+                className="fa-solid fa-magnifying-glass"
+                data-aos="zoom-in"
+                data-aos-delay="1000"
+              ></i>{" "}
+              <span data-aos="fade-up" data-aos-delay="800">
+                Company search
+              </span>
             </Link>
             <Link to="/developer-search" className="nav-link m-3">
-              <i className="fa-solid fa-laptop-file"></i> Developer search
+              <i
+                className="fa-solid fa-laptop-file"
+                data-aos="zoom-in"
+                data-aos-delay="1200"
+              ></i>{" "}
+              <span data-aos="fade-up" data-aos-delay="800">
+                Developer search
+              </span>
             </Link>
             <Link to="/company-map" className="nav-link m-3">
-              <i className="fa-solid fa-location-dot"></i> Company map
+              <i
+                className="fa-solid fa-location-dot"
+                data-aos="zoom-in"
+                data-aos-delay="1400"
+              ></i>{" "}
+              <span data-aos="fade-up" data-aos-delay="800">
+                Company map
+              </span>
             </Link>
             <Link to="/knowledge-center" className="nav-link m-3">
-              <i className="fa-solid fa-book"></i> Knowledge center
+              <i
+                className="fa-solid fa-book"
+                data-aos="zoom-in"
+                data-aos-delay="1600"
+              ></i>{" "}
+              <span data-aos="fade-up" data-aos-delay="800">
+                Knowledge center
+              </span>
             </Link>
             <Link to="/about" className="nav-link m-3">
-              <i className="fa-solid fa-user"></i> About Us
+              <i
+                className="fa-solid fa-user"
+                data-aos="zoom-in"
+                data-aos-delay="1800"
+              ></i>{" "}
+              <span data-aos="fade-up" data-aos-delay="800">
+                About Us
+              </span>
             </Link>
           </div>
         </div>
