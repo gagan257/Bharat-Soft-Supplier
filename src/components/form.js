@@ -15,7 +15,7 @@ export default function form() {
         </p>
         <form>
           <div class="row">
-            <div class="col">
+            <div class="col-md">
               <input
                 type="text"
                 class="form-control"
@@ -26,7 +26,7 @@ export default function form() {
                 required
               />
             </div>
-            <div class="col">
+            <div class="col-md">
               <input
                 type="text"
                 class="form-control"
@@ -39,7 +39,7 @@ export default function form() {
             </div>
           </div>
           <div class="row mt-3">
-            <div class="col">
+            <div class="col-md">
               <input
                 type="text"
                 class="form-control"
@@ -50,7 +50,7 @@ export default function form() {
                 required
               />
             </div>
-            <div class="col">
+            <div class="col-md">
               <input
                 type="text"
                 class="form-control"
