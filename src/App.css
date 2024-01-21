@@ -62,3 +62,16 @@ nav {
   font-size: 25px;
   font-weight: 400;
 }
+.form-title {
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: #ffb512;
+}
+.form-p {
+  font-size: 22px;
+  font-weight: 450;
+}
+.form-p > span {
+  text-decoration: underline;
+  text-decoration-color: #ffb512;
+}

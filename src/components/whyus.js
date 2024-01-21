@@ -23,16 +23,16 @@ export default function whyus() {
               What you will get:
             </h4>
             <div className="text-center whyus-li">
-              <li data-aos="zoom-in" data-aos-delay="600">
+              <li data-aos="zoom-in" data-aos-delay="400">
                 A list of top 3 suppliers
               </li>
-              <li data-aos="zoom-in" data-aos-delay="800">
+              <li data-aos="zoom-in" data-aos-delay="500">
                 Contact details of suppliers
               </li>
-              <li data-aos="zoom-in" data-aos-delay="1000">
+              <li data-aos="zoom-in" data-aos-delay="600">
                 Draft collaboration agreements
               </li>
-              <li data-aos="zoom-in" data-aos-delay="1200">
+              <li data-aos="zoom-in" data-aos-delay="800">
                 Rough pricing indications
               </li>
             </div>

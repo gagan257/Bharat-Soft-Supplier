@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light p-3 shadow-lg">
+    <nav
+      className="navbar navbar-expand-lg bg-light p-3 shadow-lg"
+      data-aos="slide-right"
+      data-aos-delay="200"
+    >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img

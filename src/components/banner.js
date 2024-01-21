@@ -1,6 +1,7 @@
 import React from "react";
 import backgroundImage from "../Images/banner-img.avif";
 import WhyUs from "./whyus";
+import Form from "./form";
 
 export default function banner() {
   return (
@@ -37,6 +38,7 @@ export default function banner() {
         </div>
       </div>
       <WhyUs />
+      <Form />
     </>
   );
 }
