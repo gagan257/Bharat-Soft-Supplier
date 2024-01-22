@@ -13,7 +13,7 @@ export default function banner() {
         <div className="container">
           <h2 className="text-center banner-heading">
             <span data-aos="fade-left" data-aos-delay="1000">
-              Find the best{" "}
+              Find the Best{" "}
             </span>
             <span
               className="banner-span"
@@ -38,7 +38,7 @@ export default function banner() {
         </div>
       </div>
       <WhyUs />
-      <Form />
+      <Form formId="01HMS4GRP7HFFDD74676MR02K0" />
     </>
   );
 }
