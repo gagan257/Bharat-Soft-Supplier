@@ -40,7 +40,7 @@ const Navbar = () => {
                 data-aos-delay="1000"
               ></i>{" "}
               <span data-aos="fade-up" data-aos-delay="800">
-                Company search
+                Supplier search
               </span>
             </Link>
             <Link to="/developer-search" className="nav-link m-3">

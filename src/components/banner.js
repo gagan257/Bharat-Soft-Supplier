@@ -2,6 +2,8 @@ import React from "react";
 import backgroundImage from "../Images/banner-img.avif";
 import WhyUs from "./whyus";
 import Form from "./form";
+import AddCompany from "./AddCompany";
+import Footer from "./footer";
 
 export default function banner() {
   return (
@@ -38,7 +40,9 @@ export default function banner() {
         </div>
       </div>
       <WhyUs />
+      <AddCompany />
       <Form formId="01HMS4GRP7HFFDD74676MR02K0" />
+      <Footer />
     </>
   );
 }
