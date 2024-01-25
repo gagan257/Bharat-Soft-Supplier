@@ -10,7 +10,7 @@ export default function footer() {
             <p class="small text-white">
               We connect software clients with software suppliers.
             </p>
-            <p class="small text-white mb-0">
+            <p class="small text-white mb-5">
               &copy;2024 All rights reserved.{" "}
             </p>
           </div>
