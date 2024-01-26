@@ -70,7 +70,7 @@ const Navbar = () => {
                 data-aos-delay="1600"
               ></i>{" "}
               <span data-aos="fade-up" data-aos-delay="800">
-                Knowledge center
+                Blogs
               </span>
             </Link>
             <Link to="/about" className="nav-link m-3">

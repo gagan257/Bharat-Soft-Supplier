@@ -4,6 +4,7 @@ import WhyUs from "./whyus";
 import Form from "./form";
 import AddCompany from "./AddCompany";
 import Footer from "./footer";
+import Blogs from "./Blogs";
 
 export default function banner() {
   return (
@@ -42,6 +43,7 @@ export default function banner() {
       <WhyUs />
       <AddCompany />
       <Form formId="01HN157YRV2NV809SSM5DDRBSX" />
+      <Blogs />
       <Footer />
     </>
   );
