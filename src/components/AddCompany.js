@@ -9,6 +9,7 @@ export default function AddCompany() {
         className="text-center add-comp-h2 pt-3 pb-1"
         data-aos="fade-up"
         data-aos-delay="800"
+        data-aos-once="true"
       >
         Add your software company
       </h2>
@@ -16,6 +17,7 @@ export default function AddCompany() {
         className="text-center text-white add-comp-h4"
         data-aos="slide-right"
         data-aos-delay="900"
+        data-aos-once="true"
       >
         to our platform to connect with clients.
       </h4>
@@ -30,6 +32,7 @@ export default function AddCompany() {
               className="mb-5 mt-5"
               data-aos="slide-up"
               data-aos-delay="500"
+              data-aos-once="true"
             />
           </div>
           <div className="col-md-8 text-white">
@@ -37,6 +40,7 @@ export default function AddCompany() {
               className="mt-5 text-center"
               data-aos="slide-right"
               data-aos-delay="500"
+              data-aos-once="true"
             >
               We specialize in linking software clients with software suppliers.
               Familiarize yourself with our services, share details about your
@@ -54,6 +58,7 @@ export default function AddCompany() {
               className="mb-5 mt-5"
               data-aos="slide-up"
               data-aos-delay="500"
+              data-aos-once="true"
             />
           </div>
           <div className="col-md-8 text-white">
@@ -61,6 +66,7 @@ export default function AddCompany() {
               className="mt-5 text-center"
               data-aos="slide-right"
               data-aos-delay="500"
+              data-aos-once="true"
             >
               Annually, we engage with over 40,000 potential clients through our
               online and offline marketing initiatives. Seize this opportunity
@@ -78,6 +84,7 @@ export default function AddCompany() {
               className="mb-5 mt-5"
               data-aos="slide-up"
               data-aos-delay="500"
+              data-aos-once="true"
             />
           </div>
           <div className="col-md-8 text-white">
@@ -85,6 +92,7 @@ export default function AddCompany() {
               className="mt-5 text-center"
               data-aos="slide-right"
               data-aos-delay="500"
+              data-aos-once="true"
             >
               Every day, we receive numerous software requests from prospective
               clients worldwide. Keep a close watch on your inbox, as we

@@ -10,7 +10,12 @@ export default function Blogs() {
       <div>
         <h2 className="text-center mb-5 pt-5">
           Explore Our{" "}
-          <span className="blogs-span" data-aos="zoom-in" data-aos-delay="1400">
+          <span
+            className="blogs-span"
+            data-aos="zoom-in"
+            data-aos-delay="1400"
+            data-aos-once="true"
+          >
             Blogs
           </span>
         </h2>
@@ -21,6 +26,7 @@ export default function Blogs() {
             className="card shadow-sm mt-2 mb-2"
             data-aos="slide-right"
             data-aos-delay="1200"
+            data-aos-once="true"
           >
             <div className="card-header">Featured</div>
             <div className="card-body">
@@ -46,6 +52,7 @@ export default function Blogs() {
             className="card shadow-sm mt-2 mb-2"
             data-aos="slide-up"
             data-aos-delay="1000"
+            data-aos-once="true"
           >
             <div className="card-header">Featured</div>
             <div className="card-body">
@@ -70,6 +77,7 @@ export default function Blogs() {
             className="card shadow-sm mt-2 mb-2"
             data-aos="slide-right"
             data-aos-delay="1200"
+            data-aos-once="true"
           >
             <div className="card-header">Featured</div>
             <div className="card-body">

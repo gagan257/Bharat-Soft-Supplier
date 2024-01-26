@@ -15,17 +15,26 @@ export default function banner() {
       >
         <div className="container">
           <h2 className="text-center banner-heading">
-            <span data-aos="fade-left" data-aos-delay="1000">
+            <span
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              data-aos-once="true"
+            >
               Find the Best{" "}
             </span>
             <span
               className="banner-span"
               data-aos="zoom-out-right"
               data-aos-delay="2000"
+              data-aos-once="true"
             >
               software suppliers
             </span>{" "}
-            <span data-aos="fade-left" data-aos-delay="2600">
+            <span
+              data-aos="fade-left"
+              data-aos-delay="2600"
+              data-aos-once="true"
+            >
               from India.
             </span>
           </h2>
