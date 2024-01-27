@@ -120,6 +120,19 @@ export default function Blogs() {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="text-center mt-5 mb-5">
+          <button
+            type="button"
+            className="btn btn-outline-dark btn-block"
+            data-aos="zoom-in"
+            data-aos-delay="900"
+            data-aos-once="true"
+          >
+            Read All Blogs
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
