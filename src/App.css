@@ -132,6 +132,14 @@ footer {
 .blogs-span {
   color: #ffb512;
 }
+.blog-creator-name {
+  color: black;
+  font-weight: 500;
+}
+.card-footer {
+  border-top: none;
+  background-color: #fff;
+}
 
 /* SCROLL BAR */
 

@@ -1,5 +1,8 @@
 import React from "react";
 import backgroundImage from "../Images/bg-blogs.jpg";
+import Image1 from "../Images/India-Unparalleled-Software-Development-Excellence.png";
+import Image2 from "../Images/The-Irreplaceable-Role-of-Human-Developers.png";
+import Image3 from "../Images/Navigating-Success-Key-Considerations-When-Choosing-an-Outsourced-Software-Development-Company.png";
 
 export default function Blogs() {
   return (
@@ -29,6 +32,11 @@ export default function Blogs() {
             data-aos-once="true"
           >
             <div className="card-header">Featured</div>
+            <img
+              src={Image1}
+              className="card-img-top"
+              alt="Blog-Featured-1-Img"
+            />
             <div className="card-body">
               <h5 className="card-title">
                 India's Unparalleled Software Development Excellence: A Personal
@@ -41,9 +49,10 @@ export default function Blogs() {
                 guide you through why India remains the optimal choice for
                 software development....
               </p>
-              <a href="/" className="btn btn-primary">
-                Explore more...
-              </a>
+            </div>
+            <div className="card-footer text-muted">
+              <span className="blog-creator-name">Pragnesh Gandhi</span> <br />
+              23 January 2024
             </div>
           </div>
         </div>
@@ -55,6 +64,11 @@ export default function Blogs() {
             data-aos-once="true"
           >
             <div className="card-header">Featured</div>
+            <img
+              src={Image2}
+              className="card-img-top"
+              alt="Blog-Featured-2-Img"
+            />
             <div className="card-body">
               <h5 className="card-title">
                 The Irreplaceable Role of Human Developers in the Era of ChatGPT
@@ -66,9 +80,10 @@ export default function Blogs() {
                 indispensable role of human developers in shaping the landscape
                 of software and AI-driven technologies.....
               </p>
-              <a href="/" className="btn btn-primary">
-                Explore more...
-              </a>
+            </div>
+            <div className="card-footer text-muted">
+              <span className="blog-creator-name">Pragnesh Gandhi</span> <br />2
+              January 2024
             </div>
           </div>
         </div>
@@ -80,6 +95,11 @@ export default function Blogs() {
             data-aos-once="true"
           >
             <div className="card-header">Featured</div>
+            <img
+              src={Image3}
+              className="card-img-top"
+              alt="Blog-Featured-3-Img"
+            />
             <div className="card-body">
               <h5 className="card-title">
                 Navigating Success: Key Considerations When Choosing an
@@ -92,9 +112,10 @@ export default function Blogs() {
                 development can offer numerous advantages, but success depends
                 on selecting the right partner....
               </p>
-              <a href="/" className="btn btn-primary">
-                Explore more...
-              </a>
+            </div>
+            <div className="card-footer text-muted">
+              <span className="blog-creator-name">Pragnesh Gandhi</span> <br />
+              13 January 2024
             </div>
           </div>
         </div>
