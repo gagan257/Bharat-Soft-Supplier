@@ -53,7 +53,6 @@ export default function banner() {
       <AddCompany />
       <Form formId="01HN157YRV2NV809SSM5DDRBSX" />
       <Blogs />
-      <Footer />
     </>
   );
 }
