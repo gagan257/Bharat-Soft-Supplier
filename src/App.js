@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
+import BlogsAll from "./components/BlogsAll.js";
 import Navbar from "./components/Navbar.js";
 import Banner from "./components/banner.js";
 import CompanySearch from "./components/companySearch.js";
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Banner />} />
           <Route path="/company-search" element={<CompanySearch />} />
+          <Route path="/blogs" element={<BlogsAll />} />
         </Routes>
       </Router>
     </>

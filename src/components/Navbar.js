@@ -63,7 +63,7 @@ const Navbar = () => {
                 Company map
               </span>
             </Link>
-            <Link to="/knowledge-center" className="nav-link m-3">
+            <Link to="/blogs" className="nav-link m-3">
               <i
                 className="fa-solid fa-book"
                 data-aos="zoom-in"

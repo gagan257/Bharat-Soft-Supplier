@@ -157,3 +157,14 @@ footer {
   background-color: transparent;
   background: transparent;
 }
+
+/* BLOGS ALL CSS */
+
+.blogs-all-span-head {
+  color: #ffb512;
+}
+
+.blogs-all-p {
+  font-size: 20px;
+  font-weight: 400;
+}
