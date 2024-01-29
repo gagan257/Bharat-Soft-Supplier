@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function footer() {
   return (
@@ -27,6 +28,9 @@ export default function footer() {
               </li>
               <li className="m-2">
                 <a href="/">Company map</a>
+              </li>
+              <li className="m-2">
+                <Link to="/blogs">Blogs</Link>
               </li>
               <li className="m-2">
                 <a href="/">About Us</a>

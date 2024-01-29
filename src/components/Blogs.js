@@ -3,6 +3,7 @@ import backgroundImage from "../Images/bg-blogs.jpg";
 import Image1 from "../Images/India-Unparalleled-Software-Development-Excellence.png";
 import Image2 from "../Images/The-Irreplaceable-Role-of-Human-Developers.png";
 import Image3 from "../Images/Navigating-Success-Key-Considerations-When-Choosing-an-Outsourced-Software-Development-Company.png";
+import { Link } from "react-router-dom";
 
 export default function Blogs() {
   return (
@@ -26,7 +27,7 @@ export default function Blogs() {
       <div className="row">
         <div className="col-md-4">
           <div
-            className="card shadow-sm mt-2 mb-2"
+            className="card shadow-lg mt-2 mb-2"
             data-aos="slide-up"
             data-aos-delay="1000"
             data-aos-once="true"
@@ -57,7 +58,7 @@ export default function Blogs() {
         </div>
         <div className="col-md-4">
           <div
-            className="card shadow-sm mt-2 mb-2"
+            className="card shadow-lg mt-2 mb-2"
             data-aos="slide-right"
             data-aos-delay="1200"
             data-aos-once="true"
@@ -89,7 +90,7 @@ export default function Blogs() {
         </div>
         <div className="col-md-4">
           <div
-            className="card shadow-sm mt-2 mb-2"
+            className="card shadow-lg mt-2 mb-2"
             data-aos="slide-right"
             data-aos-delay="1200"
             data-aos-once="true"
@@ -129,7 +130,7 @@ export default function Blogs() {
             data-aos-delay="900"
             data-aos-once="true"
           >
-            Read All Blogs
+            <Link to="/blogs">Read All Blogs</Link>
           </button>
         </div>
       </div>
