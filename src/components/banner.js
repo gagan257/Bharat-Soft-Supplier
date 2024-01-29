@@ -3,7 +3,6 @@ import backgroundImage from "../Images/banner-img.avif";
 import WhyUs from "./whyus";
 import Form from "./form";
 import AddCompany from "./AddCompany";
-import Footer from "./footer";
 import Blogs from "./Blogs";
 
 export default function banner() {

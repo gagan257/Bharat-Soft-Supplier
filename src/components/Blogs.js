@@ -27,38 +27,6 @@ export default function Blogs() {
         <div className="col-md-4">
           <div
             className="card shadow-sm mt-2 mb-2"
-            data-aos="slide-right"
-            data-aos-delay="1200"
-            data-aos-once="true"
-          >
-            <div className="card-header">Featured</div>
-            <img
-              src={Image1}
-              className="card-img-top"
-              alt="Blog-Featured-1-Img"
-            />
-            <div className="card-body">
-              <h5 className="card-title">
-                India's Unparalleled Software Development Excellence: A Personal
-                Exploration for Dutch Enterprises
-              </h5>
-              <p className="card-text">
-                In the ever-evolving tapestry of global software development,
-                India stands as a beacon of innovation and expertise. Allow me,
-                a seasoned CTO with over two decades of industry experience, to
-                guide you through why India remains the optimal choice for
-                software development....
-              </p>
-            </div>
-            <div className="card-footer text-muted">
-              <span className="blog-creator-name">Pragnesh Gandhi</span> <br />
-              23 January 2024
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div
-            className="card shadow-sm mt-2 mb-2"
             data-aos="slide-up"
             data-aos-delay="1000"
             data-aos-once="true"
@@ -116,6 +84,38 @@ export default function Blogs() {
             <div className="card-footer text-muted">
               <span className="blog-creator-name">Pragnesh Gandhi</span> <br />
               13 January 2024
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div
+            className="card shadow-sm mt-2 mb-2"
+            data-aos="slide-right"
+            data-aos-delay="1200"
+            data-aos-once="true"
+          >
+            <div className="card-header">Featured</div>
+            <img
+              src={Image1}
+              className="card-img-top"
+              alt="Blog-Featured-1-Img"
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                India's Unparalleled Software Development Excellence: A Personal
+                Exploration for Dutch Enterprises
+              </h5>
+              <p className="card-text">
+                In the ever-evolving tapestry of global software development,
+                India stands as a beacon of innovation and expertise. Allow me,
+                a seasoned CTO with over two decades of industry experience, to
+                guide you through why India remains the optimal choice for
+                software development....
+              </p>
+            </div>
+            <div className="card-footer text-muted">
+              <span className="blog-creator-name">Pragnesh Gandhi</span> <br />
+              23 January 2024
             </div>
           </div>
         </div>
