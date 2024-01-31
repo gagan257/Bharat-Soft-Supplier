@@ -1,3 +1,10 @@
+/* PREVENT SELECTING TEXT */
+.prevent-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 /* NAVBAR COMPONENT CSS */
 
 .navbar-nav {

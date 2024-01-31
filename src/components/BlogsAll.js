@@ -4,6 +4,8 @@ import backgroundImage from "../Images/bg-blogs.jpg";
 import Blog23Jan2024 from "./blogsdata/blog23jan2024";
 import Blog13Jan2024 from "./blogsdata/blog13jan2024";
 import Blog2Jan2024 from "./blogsdata/blog2jan2024";
+import Blog27Dec2023 from "./blogsdata/blog27dec2023";
+import Blog15Dec2023 from "./blogsdata/blog15dec2023";
 
 export default function BlogsAll() {
   return (
@@ -130,7 +132,9 @@ export default function BlogsAll() {
                   aria-expanded="true"
                   aria-controls="collapseFour"
                 >
-                  Blog 4
+                  <h5 className="card-title">
+                    India: A Dynamic Global Power Hub and Recent Achievements
+                  </h5>
                 </button>
               </h2>
               <div
@@ -139,7 +143,9 @@ export default function BlogsAll() {
                 aria-labelledby="headingFour"
                 data-bs-parent="#accordionBlogs"
               >
-                <div className="accordion-body">Blog 4 Here</div>
+                <div className="accordion-body">
+                  <Blog27Dec2023 />
+                </div>
               </div>
             </div>
             <div className="accordion-item">
@@ -152,7 +158,10 @@ export default function BlogsAll() {
                   aria-expanded="true"
                   aria-controls="collapseFive"
                 >
-                  Blog 5
+                  <h5 className="card-title">
+                    Mastering API Product Management: A Comprehensive Guide to
+                    Evolution and Success
+                  </h5>
                 </button>
               </h2>
               <div
@@ -161,29 +170,9 @@ export default function BlogsAll() {
                 aria-labelledby="headingFive"
                 data-bs-parent="#accordionBlogs"
               >
-                <div className="accordion-body">Blog 5 Here</div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingSix">
-                <button
-                  className="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix"
-                  aria-expanded="true"
-                  aria-controls="collapseSix"
-                >
-                  Blog 6
-                </button>
-              </h2>
-              <div
-                id="collapseSix"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingSix"
-                data-bs-parent="#accordionBlogs"
-              >
-                <div className="accordion-body">Blog 6 Here</div>
+                <div className="accordion-body">
+                  <Blog15Dec2023 />
+                </div>
               </div>
             </div>
           </div>
