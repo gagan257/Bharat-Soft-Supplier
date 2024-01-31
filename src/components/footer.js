@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function footer() {
   return (
-    <footer className="w-100 py-4 flex-shrink-0">
+    <footer className="w-100 py-4 flex-shrink-0 shadow-lg">
       <div className="container py-4">
         <div className="row">
           <div className="col-lg-4 col-md-6">

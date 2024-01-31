@@ -40,7 +40,13 @@ export default function BlogsAll() {
       </p>
       <div className="container-fluid pb-5">
         <div className="row">
-          <div className="accordion" id="accordionBlogs">
+          <div
+            className="accordion"
+            id="accordionBlogs"
+            data-aos="slide-right"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingOne">
                 <button
@@ -51,7 +57,12 @@ export default function BlogsAll() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  <h5 className="card-title">
+                  <h5
+                    className="card-title"
+                    data-aos="slide-right"
+                    data-aos-delay="700"
+                    data-aos-once="true"
+                  >
                     India's Unparalleled Software Development Excellence: A
                     Personal Exploration for Dutch Enterprises
                   </h5>
@@ -78,7 +89,12 @@ export default function BlogsAll() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  <h5 className="card-title">
+                  <h5
+                    className="card-title"
+                    data-aos="slide-right"
+                    data-aos-delay="700"
+                    data-aos-once="true"
+                  >
                     Navigating Success: Key Considerations When Choosing an
                     Outsourced Software Development Company
                   </h5>
@@ -105,7 +121,12 @@ export default function BlogsAll() {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  <h5 className="card-title">
+                  <h5
+                    className="card-title"
+                    data-aos="slide-right"
+                    data-aos-delay="700"
+                    data-aos-once="true"
+                  >
                     The Irreplaceable Role of Human Developers in the Era of
                     ChatGPT
                   </h5>
@@ -132,7 +153,12 @@ export default function BlogsAll() {
                   aria-expanded="true"
                   aria-controls="collapseFour"
                 >
-                  <h5 className="card-title">
+                  <h5
+                    className="card-title"
+                    data-aos="slide-right"
+                    data-aos-delay="700"
+                    data-aos-once="true"
+                  >
                     India: A Dynamic Global Power Hub and Recent Achievements
                   </h5>
                 </button>

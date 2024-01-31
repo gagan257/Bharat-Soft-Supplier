@@ -13,7 +13,7 @@ export default function blog2jan2024() {
             <div className="card-footer text-muted text-center">
               <span className="blog-creator-name">Blog by Pragnesh Gandhi</span>{" "}
               <br />
-              <strong>Last Updated:</strong> 27 December 2020
+              <strong>Last Updated:</strong> 27 December 2023
             </div>
           </div>
           <div className="col-md-8">
