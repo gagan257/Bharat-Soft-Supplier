@@ -33,7 +33,7 @@ export default function footer() {
                 <Link to="/blogs">Blogs</Link>
               </li>
               <li className="m-2">
-                <a href="/">About Us</a>
+                <Link href="/about">About Us</Link>
               </li>
             </ul>
           </div>
