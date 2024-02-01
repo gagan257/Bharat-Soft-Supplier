@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 export default function footer() {
   return (
     <footer className="w-100 py-4 flex-shrink-0 shadow-lg">
@@ -21,19 +28,29 @@ export default function footer() {
             </h5>
             <ul className="list-unstyled text-white">
               <li className="m-2">
-                <a href="/">Supplier search</a>
+                <Link to="/" onClick={scrollToTop}>
+                  Supplier search
+                </Link>
               </li>
               <li className="m-2">
-                <a href="/">Developer search</a>
+                <Link to="/" onClick={scrollToTop}>
+                  Developer search
+                </Link>
               </li>
               <li className="m-2">
-                <a href="/">Company map</a>
+                <Link to="/" onClick={scrollToTop}>
+                  Company map
+                </Link>
               </li>
               <li className="m-2">
-                <Link to="/blogs">Blogs</Link>
+                <Link to="/blogs" onClick={scrollToTop}>
+                  Blogs
+                </Link>
               </li>
               <li className="m-2">
-                <Link to="/about">About Us</Link>
+                <Link to="/about" onClick={scrollToTop}>
+                  About Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -43,10 +60,14 @@ export default function footer() {
             </h5>
             <ul className="list-unstyled text-white">
               <li className="m-2">
-                <a href="/">Privacy Policy</a>
+                <Link to="/" onClick={scrollToTop}>
+                  Privacy Policy
+                </Link>
               </li>
               <li className="m-2">
-                <a href="/">Terms and Conditions</a>
+                <Link to="/" onClick={scrollToTop}>
+                  Terms and Conditions
+                </Link>
               </li>
             </ul>
           </div>

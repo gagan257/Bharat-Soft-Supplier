@@ -5,6 +5,13 @@ import Image2 from "../Images/The-Irreplaceable-Role-of-Human-Developers.png";
 import Image3 from "../Images/Navigating-Success-Key-Considerations-When-Choosing-an-Outsourced-Software-Development-Company.png";
 import { Link } from "react-router-dom";
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 export default function Blogs() {
   return (
     <div
@@ -130,7 +137,9 @@ export default function Blogs() {
             data-aos-delay="900"
             data-aos-once="true"
           >
-            <Link to="/blogs">Read All Blogs</Link>
+            <Link to="/blogs" onClick={scrollToTop}>
+              Read All Blogs
+            </Link>
           </button>
         </div>
       </div>

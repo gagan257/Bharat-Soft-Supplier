@@ -3,5 +3,5 @@
 ### NPM Packages till date
 
 ```
-npm install react react-dom react-bootstrap react-router-dom
+npm install react react-dom react-bootstrap react-router-dom react-top-loading-bar
 ```
