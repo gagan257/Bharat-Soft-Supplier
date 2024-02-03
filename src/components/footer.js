@@ -11,7 +11,7 @@ const scrollToTop = () => {
 export default function footer() {
   return (
     <footer className="w-100 py-4 flex-shrink-0 shadow-lg">
-      <div className="container py-4">
+      <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <h2 className="footer-brand">Bharat Soft Suppliers</h2>
@@ -29,7 +29,7 @@ export default function footer() {
             <ul className="list-unstyled text-white">
               <li className="m-2">
                 <Link to="/" onClick={scrollToTop}>
-                  Supplier search
+                  Home
                 </Link>
               </li>
               <li className="m-2">

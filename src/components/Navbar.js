@@ -33,14 +33,14 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to="/company-search" className="nav-link m-3">
+            <Link to="/" className="nav-link m-3">
               <i
-                className="fa-solid fa-magnifying-glass"
+                className="fa-solid fa-house"
                 data-aos="zoom-in"
                 data-aos-delay="1000"
               ></i>{" "}
               <span data-aos="fade-up" data-aos-delay="800">
-                Supplier search
+                Home
               </span>
             </Link>
             <Link to="/developer-search" className="nav-link m-3">

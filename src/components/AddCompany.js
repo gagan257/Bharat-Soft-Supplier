@@ -16,12 +16,12 @@ export default function AddCompany() {
       <h4
         className="text-center text-white add-comp-h4"
         data-aos="slide-right"
-        data-aos-delay="900"
+        data-aos-delay="800"
         data-aos-once="true"
       >
         to our platform to connect with clients.
       </h4>
-      <div className="container mt-3 pt-3">
+      <div className="container">
         <div className="row">
           <div className="col-md-4 d-flex">
             <img
@@ -37,7 +37,7 @@ export default function AddCompany() {
           </div>
           <div className="col-md-8 text-white">
             <h4
-              className="mt-5 text-center"
+              className="mt-3 text-center"
               data-aos="slide-right"
               data-aos-delay="500"
               data-aos-once="true"
@@ -48,7 +48,7 @@ export default function AddCompany() {
             </h4>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row">
           <div className="col-md-4 d-flex">
             <img
               src={img2}
@@ -63,7 +63,7 @@ export default function AddCompany() {
           </div>
           <div className="col-md-8 text-white">
             <h4
-              className="mt-5 text-center"
+              className="mt-3 text-center"
               data-aos="slide-right"
               data-aos-delay="500"
               data-aos-once="true"
@@ -74,7 +74,7 @@ export default function AddCompany() {
             </h4>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-2">
           <div className="col-md-4 d-flex">
             <img
               src={img3}
@@ -89,7 +89,7 @@ export default function AddCompany() {
           </div>
           <div className="col-md-8 text-white">
             <h4
-              className="mt-5 text-center"
+              className="mt-3 text-center mb-3"
               data-aos="slide-right"
               data-aos-delay="500"
               data-aos-once="true"

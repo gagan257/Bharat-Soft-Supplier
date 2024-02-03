@@ -4,7 +4,7 @@ import MailBoxImg from "../Images/mailBox.svg";
 export default function whyus() {
   return (
     <div className="mb-5 pb-5">
-      <h2 className="text-center mt-5 pt-3 mb-5">
+      <h2 className="text-center mt-5 pt-3 mb-4">
         <span
           className="whyus-span"
           data-aos="zoom-in"
@@ -29,10 +29,10 @@ export default function whyus() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h4 className="whyus-advantage mb-5 text-center">
+            <h4 className="whyus-advantage mb-4 text-center">
               What you will get:
             </h4>
-            <div className="text-center whyus-li">
+            <div className="whyus-li ml-5">
               <li data-aos="zoom-in" data-aos-delay="400" data-aos-once="true">
                 A list of top 3 suppliers
               </li>
