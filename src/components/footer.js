@@ -60,12 +60,12 @@ export default function footer() {
             </h5>
             <ul className="list-unstyled text-white">
               <li className="m-2">
-                <Link to="/" onClick={scrollToTop}>
+                <Link to="/privacy-policy" onClick={scrollToTop}>
                   Privacy Policy
                 </Link>
               </li>
               <li className="m-2">
-                <Link to="/" onClick={scrollToTop}>
+                <Link to="/terms-and-conditions" onClick={scrollToTop}>
                   Terms and Conditions
                 </Link>
               </li>

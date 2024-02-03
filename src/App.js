@@ -6,6 +6,7 @@ import Banner from "./components/banner.js";
 import About from "./components/about.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/footer.js";
+import PrivacyPolicy from "./components/privacyPolicy.js";
 function App() {
   return (
     <>
@@ -15,6 +16,8 @@ function App() {
           <Route path="/" element={<Banner />} />
           <Route path="/blogs" element={<BlogsAll />} />
           <Route path="/about" element={<About />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-and-conditions" element={<About />} />
         </Routes>
         <Footer />
       </Router>
