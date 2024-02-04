@@ -147,7 +147,6 @@ footer {
   border-top: none;
   background-color: #fff;
 }
-
 /* SCROLL BAR */
 
 ::-webkit-scrollbar {
@@ -187,5 +186,10 @@ footer {
 
 /* PRIVACY POLICY CSS */
 .policy-span {
+  color: #ffb512;
+}
+
+/* TERMS AND CONDITIONS CSS */
+.TandC-span {
   color: #ffb512;
 }

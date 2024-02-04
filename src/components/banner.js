@@ -12,7 +12,7 @@ export default function banner() {
         className="container-fluid banner-div"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        <div className="container">
+        <div className="container pb-5">
           <h2 className="text-center banner-heading">
             <span
               data-aos="fade-left"
@@ -41,11 +41,6 @@ export default function banner() {
             Our platform is specifically crafted to facilitate the connection
             between software clients and software suppliers.
           </p>
-          <div className="btn-div">
-            <button className="btn btn-primary btn-lg btn-block banner-btn mt-5 mb-5">
-              Why Us?
-            </button>
-          </div>
         </div>
       </div>
       <WhyUs />
