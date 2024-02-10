@@ -19,7 +19,7 @@ export default function blog23jan2024P() {
         data-aos-once="true"
       >
         <img src={Image} className="card-img-top" alt="Blog-Featured-1-Img" />
-        <div className="card-body">
+        <div className="card-body card-body-prev">
           <h5 className="card-title">
             India's Unparalleled Software Development Excellence: A Personal
             Exploration for Dutch Enterprises
@@ -29,7 +29,11 @@ export default function blog23jan2024P() {
             stands as a beacon of innovation and expertise. Allow me, a seasoned
             CTO with over two decades of industry experience, to guide you
             through why India remains the optimal choice for software
-            development....
+            development.In the era of ChatGPT and advanced artificial
+            intelligence, the conversation often revolves around the
+            capabilities of automated systems. However, as a seasoned developer,
+            I advocate for the indispensable role of human developers in shaping
+            the landscape of software and AI-driven technologies
           </p>
         </div>
         <div className="card-footer text-muted">

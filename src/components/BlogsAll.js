@@ -40,19 +40,19 @@ export default function BlogsAll() {
       </p>
       <div className="container-fluid pb-5">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Blog23Jan2024P />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Blog13Jan2024P />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Blog2Jan2024P />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Blog27Dec2023P />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <Blog15Dec2023P />
           </div>
         </div>

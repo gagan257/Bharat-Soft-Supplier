@@ -28,10 +28,9 @@ export default function whyus() {
       </h2>
       <div className="container">
         <div className="row">
+          <div className="col-md-2"></div>
           <div className="col-md-6">
-            <h4 className="whyus-advantage mb-4 text-center">
-              What you will get:
-            </h4>
+            <h4 className="whyus-advantage mb-4 mt-4">What you will get:</h4>
             <div className="whyus-li ml-5">
               <li data-aos="zoom-in" data-aos-delay="400" data-aos-once="true">
                 A list of top 3 suppliers
@@ -48,12 +47,17 @@ export default function whyus() {
             </div>
           </div>
           <div
-            className="col-md-6 text-center"
+            className="col-md-2 text-center mt-4"
             data-aos="slide-right"
             data-aos-delay="6000"
             data-aos-once="true"
           >
-            <img src={MailBoxImg} alt="" className="mt-5" />
+            <img
+              src={MailBoxImg}
+              alt="Mail_Box_Image"
+              width={200}
+              height={200}
+            />
           </div>
         </div>
       </div>

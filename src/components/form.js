@@ -25,7 +25,7 @@ const TypeformEmbed = ({ formId }) => {
           <span>Software Supplier</span> will get back to you.
         </p>
       </div>
-      <div data-tf-live={formId} className="mb-5 text-center"></div>
+      <div data-tf-live={formId} className="mb-5 pb-5 text-center"></div>
     </>
   );
 };

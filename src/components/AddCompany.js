@@ -29,7 +29,7 @@ export default function AddCompany() {
               alt=""
               height={120}
               width={120}
-              className="mb-5 mt-5"
+              className="mb-4 mt-4"
               data-aos="slide-up"
               data-aos-delay="500"
               data-aos-once="true"
@@ -37,7 +37,7 @@ export default function AddCompany() {
           </div>
           <div className="col-md-8 text-white">
             <h4
-              className="mt-3 text-center"
+              className="mt-4 text-center mb-4"
               data-aos="slide-right"
               data-aos-delay="500"
               data-aos-once="true"
@@ -55,7 +55,7 @@ export default function AddCompany() {
               alt=""
               height={120}
               width={120}
-              className="mb-5 mt-5"
+              className="mb-4 mt-4"
               data-aos="slide-up"
               data-aos-delay="500"
               data-aos-once="true"
@@ -63,7 +63,7 @@ export default function AddCompany() {
           </div>
           <div className="col-md-8 text-white">
             <h4
-              className="mt-3 text-center"
+              className="mt-4 mb-4 text-center"
               data-aos="slide-right"
               data-aos-delay="500"
               data-aos-once="true"
@@ -81,7 +81,7 @@ export default function AddCompany() {
               alt=""
               height={120}
               width={120}
-              className="mb-5 mt-5"
+              className="mb-4 mt-4"
               data-aos="slide-up"
               data-aos-delay="500"
               data-aos-once="true"
@@ -89,7 +89,7 @@ export default function AddCompany() {
           </div>
           <div className="col-md-8 text-white">
             <h4
-              className="mt-3 text-center mb-3"
+              className="mt-4 text-center mb-4"
               data-aos="slide-right"
               data-aos-delay="500"
               data-aos-once="true"

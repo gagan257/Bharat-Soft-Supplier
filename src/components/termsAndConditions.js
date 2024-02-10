@@ -3,7 +3,7 @@ import React from "react";
 export default function termsAndConditions() {
   return (
     <div
-      className="mt-5 mb-5"
+      className=" container mt-5 mb-5"
       data-aos="slide-right"
       data-aos-delay="1000"
       data-aos-once="true"

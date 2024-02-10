@@ -19,7 +19,7 @@ export default function blog2jan2024P() {
         data-aos-once="true"
       >
         <img src={Image} className="card-img-top" alt="Blog-Featured-2-Img" />
-        <div className="card-body">
+        <div className="card-body card-body-prev">
           <h5 className="card-title">
             The Irreplaceable Role of Human Developers in the Era of ChatGPT
           </h5>
@@ -28,7 +28,11 @@ export default function blog2jan2024P() {
             conversation often revolves around the capabilities of automated
             systems. However, as a seasoned developer, I advocate for the
             indispensable role of human developers in shaping the landscape of
-            software and AI-driven technologies.....
+            software and AI-driven technologies. In the era of ChatGPT and
+            advanced artificial intelligence, the conversation often revolves
+            around the capabilities of automated systems. However, as a seasoned
+            developer, I advocate for the indispensable role of human developers
+            in shaping the landscape of software and AI-driven technologies
           </p>
         </div>
         <div className="card-footer text-muted">

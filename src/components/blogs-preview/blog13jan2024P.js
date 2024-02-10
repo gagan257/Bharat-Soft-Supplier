@@ -19,7 +19,7 @@ export default function blog13jan2024P() {
         data-aos-once="true"
       >
         <img src={Image} className="card-img-top" alt="Blog-Featured-3-Img" />
-        <div className="card-body">
+        <div className="card-body card-body-prev">
           <h5 className="card-title">
             Navigating Success: Key Considerations When Choosing an Outsourced
             Software Development Company
@@ -29,7 +29,11 @@ export default function blog13jan2024P() {
             software development partner is crucial for businesses aiming to
             stay competitive and innovative. Outsourcing software development
             can offer numerous advantages, but success depends on selecting the
-            right partner....
+            right partner. In the era of ChatGPT and advanced artificial
+            intelligence, the conversation often revolves around the
+            capabilities of automated systems. However, as a seasoned developer,
+            I advocate for the indispensable role of human developers in shaping
+            the landscape of software and AI-driven technologies
           </p>
         </div>
         <div className="card-footer text-muted">

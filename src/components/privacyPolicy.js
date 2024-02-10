@@ -12,7 +12,7 @@ export default function privacyPolicy() {
   return (
     <div>
       <div
-        className="container-fluid mt-5 mb-5"
+        className="container mt-5 mb-5"
         data-aos="slide-right"
         data-aos-delay="1000"
         data-aos-once="true"
