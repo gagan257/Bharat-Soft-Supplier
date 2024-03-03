@@ -86,6 +86,8 @@ nav {
 /* Add Component CSS */
 .add-comp-div {
   background-color: #ffb512;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
 }
 .d-flex {
   display: flex;
@@ -102,6 +104,9 @@ nav {
 
 /* FOOTER */
 
+footer {
+  border-top-left-radius: 100px;
+}
 .text-small {
   font-size: 0.9rem;
 }

@@ -10,7 +10,7 @@ const scrollToTop = () => {
 
 export default function footer() {
   return (
-    <footer className="w-100 py-4 flex-shrink-0 shadow-lg">
+    <footer className="w-100 py-4 flex-shrink-0">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
