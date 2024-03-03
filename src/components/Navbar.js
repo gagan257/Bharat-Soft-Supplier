@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../Images/nav-logo.png";
+import logo from "../Images/rsz_logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-light p-3 shadow-lg"
+      className="navbar navbar-expand-lg bg-light shadow-lg"
       data-aos="slide-right"
       data-aos-delay="200"
     >
@@ -15,7 +15,7 @@ const Navbar = () => {
             src={logo}
             alt="Logo"
             width="130"
-            height="60"
+            height="50"
             data-aos="fade-right"
             data-aos-delay="800"
           />
@@ -32,10 +32,10 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse justify-content-center"
+          className="collapse navbar-collapse d-flex justify-content-center"
           id="navbarNavAltMarkup"
         >
-          <div className="navbar-nav">
+          <div className="navbar-nav d-flex justify-content-center">
             <Link to="/" className="nav-link m-3">
               <i
                 className="fa-solid fa-house"
@@ -44,16 +44,6 @@ const Navbar = () => {
               ></i>{" "}
               <span data-aos="fade-up" data-aos-delay="800">
                 Home
-              </span>
-            </Link>
-            <Link to="/developer-search" className="nav-link m-3">
-              <i
-                className="fa-solid fa-laptop-file"
-                data-aos="zoom-in"
-                data-aos-delay="1200"
-              ></i>{" "}
-              <span data-aos="fade-up" data-aos-delay="800">
-                Developer search
               </span>
             </Link>
             <Link to="/company-map" className="nav-link m-3">

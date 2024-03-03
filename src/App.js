@@ -3,6 +3,7 @@ import BlogsAll from "./components/BlogsAll.js";
 import Navbar from "./components/Navbar.js";
 import Banner from "./components/banner.js";
 import About from "./components/about.js";
+import CompanyMap from "./components/companyMap.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/footer.js";
 import PrivacyPolicy from "./components/privacyPolicy.js";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Banner />} />
           <Route path="/blogs" element={<BlogsAll />} />
           <Route path="/about" element={<About />} />
+          <Route path="/company-map" element={<CompanyMap />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TandC />} />
           <Route path="/blog/2-January-2024" element={<Blog2Jan2024 />} />

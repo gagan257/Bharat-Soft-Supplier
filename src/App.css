@@ -105,7 +105,7 @@ nav {
 /* FOOTER */
 
 footer {
-  border-top-left-radius: 100px;
+  border-top-left-radius: 60px;
 }
 .text-small {
   font-size: 0.9rem;
@@ -204,5 +204,11 @@ footer {
 
 /* TERMS AND CONDITIONS CSS */
 .TandC-span {
+  color: #ffb512;
+}
+
+/* COMPANY MAP CSS */
+
+.company-map-heading {
   color: #ffb512;
 }

@@ -13,7 +13,7 @@ export default function footer() {
     <footer className="w-100 py-4 flex-shrink-0">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-6 pt-4">
             <h2 className="footer-brand">Bharat Soft Suppliers</h2>
             <p className="small text-white">
               We connect software clients with software suppliers.
