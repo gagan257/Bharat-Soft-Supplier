@@ -17,7 +17,7 @@ nav {
   border-radius: 30px;
 }
 .nav-link:hover {
-  color: #ffb512;
+  color: #1c63b8;
 }
 
 /* BANNER COMPONENT CSS */
@@ -28,13 +28,13 @@ nav {
   background-size: cover;
 }
 .banner-span {
-  color: #ffb512;
+  color: #1c63b8;
 }
 .banner-sub-text {
   font-size: 20px;
 }
 .banner-btn {
-  background-color: #ffb512;
+  background-color: #1c63b8;
   color: #fff;
   border: none;
   font-size: 20px;
@@ -55,15 +55,15 @@ nav {
 /* WHY US COMPONENT CSS */
 
 .whyus-span {
-  color: #ffb512;
+  color: #1c63b8;
 }
 .whyus-span-2 {
   text-decoration: underline;
-  text-decoration-color: #ffb512;
+  text-decoration-color: #1c63b8;
 }
 .whyus-advantage {
   font-weight: 550;
-  color: #ffb512;
+  color: #1c63b8;
 }
 .whyus-li {
   font-size: 25px;
@@ -72,7 +72,7 @@ nav {
 .form-title {
   font-weight: 400;
   text-decoration: underline;
-  text-decoration-color: #ffb512;
+  text-decoration-color: #1c63b8;
 }
 .form-p {
   font-size: 22px;
@@ -80,12 +80,12 @@ nav {
 }
 .form-p > span {
   text-decoration: underline;
-  text-decoration-color: #ffb512;
+  text-decoration-color: #1c63b8;
 }
 
 /* Add Component CSS */
 .add-comp-div {
-  background-color: #ffb512;
+  background-color: #1c63b8;
   border-top-left-radius: 80px;
   border-bottom-right-radius: 80px;
 }
@@ -95,7 +95,7 @@ nav {
   align-items: center;
 }
 .add-comp-h2 {
-  color: #002452;
+  color: white;
 }
 .add-comp-h4 {
   font-size: 25px;
@@ -136,7 +136,7 @@ footer {
 }
 
 .footer-brand {
-  color: #ffb512;
+  color: #1c63b8;
 }
 
 /* BLOGS CSS */
@@ -150,7 +150,7 @@ footer {
 }
 
 .blogs-span {
-  color: #ffb512;
+  color: #1c63b8;
 }
 .blog-creator-name {
   color: black;
@@ -169,7 +169,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #f1c40f;
+  background-color: #1c63b8;
 }
 
 ::-webkit-scrollbar-track {
@@ -180,7 +180,7 @@ footer {
 /* BLOGS ALL CSS */
 
 .blogs-all-span-head {
-  color: #ffb512;
+  color: #1c63b8;
 }
 
 .blogs-all-p {
@@ -194,21 +194,21 @@ footer {
 /* ABOUT US CSS */
 
 .aboutus-span {
-  color: #ffb512;
+  color: #1c63b8;
 }
 
 /* PRIVACY POLICY CSS */
 .policy-span {
-  color: #ffb512;
+  color: #1c63b8;
 }
 
 /* TERMS AND CONDITIONS CSS */
 .TandC-span {
-  color: #ffb512;
+  color: #1c63b8;
 }
 
 /* COMPANY MAP CSS */
 
 .company-map-heading {
-  color: #ffb512;
+  color: #1c63b8;
 }

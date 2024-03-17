@@ -56,6 +56,16 @@ const Navbar = () => {
                 Company map
               </span>
             </Link>
+            <Link to="/company-register" className="nav-link m-3">
+              <i
+                className="fa-solid fa-table-list"
+                data-aos="zoom-in"
+                data-aos-delay="1400"
+              ></i>{" "}
+              <span data-aos="fade-up" data-aos-delay="800">
+                Company Registration
+              </span>
+            </Link>
             <Link to="/blogs" className="nav-link m-3">
               <i
                 className="fa-solid fa-book"

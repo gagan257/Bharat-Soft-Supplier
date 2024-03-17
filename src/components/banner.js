@@ -39,7 +39,7 @@ export default function banner() {
           </h2>
           <p className="banner-sub-text text-center mt-3">
             Our platform is specifically crafted to facilitate the connection
-            between software clients and software suppliers.
+            between software clients and Indian software suppliers.
           </p>
         </div>
       </div>

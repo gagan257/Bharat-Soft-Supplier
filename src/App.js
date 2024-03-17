@@ -6,6 +6,7 @@ import About from "./components/about.js";
 import CompanyMap from "./components/companyMap.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/footer.js";
+import RegistrationForm from "./components/form2.js";
 import PrivacyPolicy from "./components/privacyPolicy.js";
 import TandC from "./components/termsAndConditions.js";
 import Blog2Jan2024 from "../src/components/blogsdata/blog2jan2024.js";
@@ -24,6 +25,10 @@ function App() {
           <Route path="/blogs" element={<BlogsAll />} />
           <Route path="/about" element={<About />} />
           <Route path="/company-map" element={<CompanyMap />} />
+          <Route
+            path="/company-register"
+            element={<RegistrationForm formId="01HS6P66B2M61M02DRQJP0BWH7" />}
+          />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TandC />} />
           <Route path="/blog/2-January-2024" element={<Blog2Jan2024 />} />

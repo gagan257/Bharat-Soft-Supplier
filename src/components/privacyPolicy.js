@@ -34,7 +34,7 @@ export default function privacyPolicy() {
           meanings as those in our Terms and Conditions, accessible from
           <Link
             to="/terms-and-conditions"
-            className="text-warning"
+            className="text-primary"
             onClick={scrollToTop}
           >
             {" "}

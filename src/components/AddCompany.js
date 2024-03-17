@@ -6,7 +6,7 @@ export default function AddCompany() {
   return (
     <div className="container-fluid add-comp-div pb-3 pt-3">
       <h2
-        className="text-center add-comp-h2 pt-3 pb-1"
+        className="text-center add-comp-h2 pt-3 pb-1 text-white"
         data-aos="fade-up"
         data-aos-delay="800"
         data-aos-once="true"
