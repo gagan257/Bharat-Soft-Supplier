@@ -212,3 +212,7 @@ footer {
 .company-map-heading {
   color: #1c63b8;
 }
+
+.company-info-card {
+  border: 1px solid black;
+}
